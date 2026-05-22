@@ -1,0 +1,67 @@
+{
+  "mode": "diag",
+  "fit_indices_1based": [
+    1
+  ],
+  "measured_samples_path": "D:\\Python_Project\\Qiushi_process\\calib_out\\open_version\\calibration_set\\calibration_samples_9ch_measured.npy",
+  "theoretical_samples_path": "D:\\Python_Project\\Qiushi_process\\calib_out\\open_version\\calibration_set\\calibration_samples_9ch_theoretical.npy",
+  "calibration_formula": "T_hat = M @ W",
+  "full_reg_enable": false,
+  "full_reg_alpha": null,
+  "full_reg_target": null,
+  "matrix_info": {
+    "condition_number": 1.17091779090394,
+    "diag": [
+      176.00435403968015,
+      194.26605400213995,
+      168.11795627250552,
+      166.0745226966344,
+      179.05851392736164,
+      169.62504143978126,
+      167.1881226626045,
+      172.77076786049193,
+      194.45961324136942
+    ],
+    "diag_norm": 530.1056315023471,
+    "offdiag_norm": 0.0,
+    "offdiag_over_diag": 0.0
+  },
+  "metrics_all_samples": {
+    "mse_per_ch": [
+      3373146.8024273585,
+      5782196.22886194,
+      3814908.340097189,
+      2730461.2895483854,
+      6102167.063938208,
+      1055360.122427589,
+      4569467.981535778,
+      6456098.04344906,
+      16309834.0031406
+    ],
+    "mse_mean": 5577071.097269568,
+    "r2_per_ch": [
+      0.9774095471712051,
+      0.9815184133992259,
+      0.9778247975846661,
+      0.9762520879935613,
+      0.9768502413662304,
+      0.9708796607909252,
+      0.9764568732009503,
+      0.9770821035045609,
+      0.9711109619198451
+    ],
+    "r2_mean": 0.9761538541034633,
+    "relerr_per_ch": [
+      0.10833478756314552,
+      0.0928118038742471,
+      0.09261871668422876,
+      0.08742598404139156,
+      0.09138136584419464,
+      0.10112279058996043,
+      0.09317654952841109,
+      0.08560322132887188,
+      0.11295277514027814
+    ],
+    "relerr_mean": 0.09615866606608102
+  }
+}
